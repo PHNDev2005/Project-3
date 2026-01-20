@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: auto;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: url("../images/pexels-koushalya-karthikeyan-605468635-19643272.jpg");
+  background-size: cover;
+  transition: all 0.5s;
+}
+.signup {
+  width: 350px;
+  padding: 2%;
+  border-radius: 20px;
+  border: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 0 20px;
+  color: white;
+  position: relative;
+  z-index: 2;
+}
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+.input_account {
+  position: relative;
+  margin: 18px 0;
+}
+.input_account input {
+  width: 100%;
+  padding: 12px;
+  background: transparent;
+
+  outline: none;
+  border: none;
+  border-bottom: 2px solid paleturquoise;
+  color: white;
+  font-size: 17px;
+  transition: 0.3s;
+}
+.up {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+a:hover {
+  color: aquamarine;
+}
+button:hover {
+  background-color: aquamarine;
+  transform: scale(1.01);
+}
